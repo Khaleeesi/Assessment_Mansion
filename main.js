@@ -126,6 +126,7 @@ $(function() {
 
   $('#bonusCode').click(function() {
     $('#bonusCodeWrapper').toggleClass('display-none');
+    $('#bonusCheck').prop('checked', !$('#bonusCheck').prop('checked'));
     return false;
   });
 });
